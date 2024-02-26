@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./components/Card";
+import Student from "./components/student";
 
 function App() {
   let employes = [
@@ -21,6 +22,25 @@ function App() {
     },
   ];
 
+  let student = [
+    {
+      name: "Samim",
+      contact: 1234,
+    },
+    {
+      name: "aktar",
+      contact: 54462,
+    },
+    {
+      name: "Rony",
+      contact: 8975,
+    },
+    {
+      name: "Jahaed",
+      contact: 98776,
+    },
+  ];
+
   return (
     <>
       <h1 className="text-3xl font-bold  bg-green-300 text-black mb-4">
@@ -30,6 +50,8 @@ function App() {
         <Card employeeName="Jahed Ali" />
         <Card employe={employes} />
       </div>
+
+      <Student studentDetail={student} />
     </>
   );
 }
