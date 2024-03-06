@@ -1,0 +1,50 @@
+:root {
+  --primary: #3dcfd3;
+  --dark: #161616;
+  --pure: #ffffff;
+  --ternary: #898989;
+  --light: #f2f2f2;
+}
+
+.hero-body {
+  background: var(--dark);
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 93%, 30% 95%, 0 94%);
+}
+.hero {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  padding: 3rem 0;
+}
+.hero .right {
+  color: var(--pure);
+}
+.hero .right h6 {
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+.hero .right h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+.hero .right h1 .and-part {
+  font-size: 2.7rem;
+}
+.hero .right h1 span {
+  font-size: 3.5rem;
+  color: var(--primary);
+}
+.hero .right p {
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
+.hero .right {
+  margin-top: -1rem;
+}
