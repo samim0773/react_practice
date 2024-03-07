@@ -1,0 +1,143 @@
+/* how I can help  */
+
+.service {
+  background: var(--pure);
+  margin-bottom: 60px;
+}
+.service h2 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 2.3rem;
+}
+.service-container {
+  display: flex;
+  justify-content: space-around;
+}
+.service-container .web {
+  flex-basis: 30%;
+  background: #f6f5f5;
+  border-radius: 20px;
+  border-radius: 20px;
+}
+.service-container .photoshop {
+  flex-basis: 30%;
+  background: #f6f5f5;
+}
+.service-container .desktop {
+  flex-basis: 30%;
+  background: #f6f5f5;
+  border-radius: 20px;
+}
+.service-container .web img,
+.service-container .photoshop img,
+.service-container .desktop img {
+  display: block;
+  margin: 10px auto;
+}
+.service-container .web p,
+.service-container .photoshop p,
+.service-container .desktop p {
+  text-align: justify;
+  padding: 20px 20px;
+}
+
+/* ----------------------- contact -----------------------------*/
+.contact .title h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+.contact-container {
+  display: flex;
+  height: 500px;
+  background: var(--pure);
+}
+.contact-container .drop-message {
+  display: flex;
+  background: #adeecf;
+  width: 70%;
+}
+.contact-container .drop-message .input-feilds {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.contact-container .drop-message .input-feilds .input,
+.input-message textarea {
+  margin: 37px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #094f6d;
+  padding: 10px;
+  color: var(--primary);
+  color: var(--dark);
+  width: 100%;
+}
+.input-message textarea {
+  margin: 25px 0;
+  height: 333px;
+  font-size: 25px;
+}
+.contact-container .drop-message .input-message {
+  margin: 10px 10px;
+  text-transform: capitalize;
+  width: 48%;
+}
+input,
+input::-webkit-input-placeholder {
+  color: var(--dark);
+  font-size: 22px;
+}
+.btn1 {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn1:hover {
+  background-color: rgb(122, 190, 190);
+}
+.contact-container .address {
+  background: #357a2f;
+  color: #f8f7de;
+  width: 30%;
+}
+.contact-container .address .fst,
+.contact-container .address .sec,
+.contact-container .address .thir,
+.contact-container .address .four {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.contact-container .address .sec p i {
+  width: 20px;
+  height: 30px;
+}
+.smedia {
+  display: flex;
+}
+.smedia a {
+  background: var(--dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  transition: all 0.3s ease;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.smedia a img {
+  width: 20px;
+}
+.smedia a:hover {
+  background: var(--primary);
+}
