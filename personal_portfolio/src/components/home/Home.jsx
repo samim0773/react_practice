@@ -44,6 +44,72 @@ function Home() {
           </div>
         </div>
       </section>
+      {/* --------- skills */}
+      <section className="skill" id="skill">
+        <div className="title">
+          <h1>
+            My <span>Skills</span>
+          </h1>
+        </div>
+        <div className="skill-container container" data-aos="flip-right">
+          <div className="skill-font">
+            <h2 className="skill-title">FONT-END</h2>
+            <div className="bars">
+              <div className="info">
+                <span>HTML</span>
+                <span>95%</span>
+              </div>
+              <div className="line html"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>CSS</span>
+                <span>80%</span>
+              </div>
+              <div className="line css"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>Java Script</span>
+                <span>70%</span>
+              </div>
+              <div className="line js"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>React</span>
+                <span>70%</span>
+              </div>
+              <div className="line js"></div>
+            </div>
+          </div>
+          <div className="skill-back">
+            <h2 className="skill-title">BACK-END</h2>
+            <div className="bars">
+              <div className="info">
+                <span>Node.js</span>
+                <span>70%</span>
+              </div>
+              <div className="line node"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>Express.js</span>
+                <span>75%</span>
+              </div>
+              <div className="line express"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>MongoDB</span>
+                <span>60%</span>
+              </div>
+              <div className="line api"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ------ What I DO -------- */}
       <section className="service what-i-do-container" id="services">
         <div>

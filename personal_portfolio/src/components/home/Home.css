@@ -141,3 +141,101 @@ input::-webkit-input-placeholder {
 .smedia a:hover {
   background: var(--primary);
 }
+
+/* ------ skills ------ */
+.skill {
+  background: var(--dark);
+}
+
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+section.skill .title h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: var(--pure);
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+section.skill .title h1 span {
+  color: var(--primary);
+}
+.skill-title {
+  text-align: center;
+  margin-top: 15px;
+}
+.skill-font {
+  color: var(--pure);
+  flex-basis: 48%;
+  background: #1a1c20;
+}
+
+.skill-font .bars,
+.skill-back .bars {
+  margin: 15px 15px;
+  margin-bottom: 40px;
+}
+.skill-font .info,
+.skill-back .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.skill-font .bars .info span,
+.skill-back .bars .info span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.line {
+  height: 7px;
+  width: 100%;
+  background: rgb(223, 203, 203);
+  position: relative;
+}
+.line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+.html::before {
+  width: 95%;
+}
+.css::before {
+  width: 90%;
+}
+.js::before {
+  width: 80%;
+}
+.skill-back {
+  color: var(--pure);
+  flex-basis: 48%;
+  background: #1a1c20;
+}
+.node::before {
+  width: 70%;
+}
+.express::before {
+  width: 75%;
+}
+.api::before {
+  width: 60%;
+}
+.sql::before {
+  width: 80%;
+}
+.nosql::before {
+  width: 60%;
+}
+.python::before {
+  width: 80%;
+}
+.java::before {
+  width: 70%;
+}
